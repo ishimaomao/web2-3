@@ -1,11 +1,35 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-  <meta charset="utf-8">
-  <title>タイトル</title>
-  <link rel="stylesheet" href="css/default.css"type="text/css">
-</head>
-<body>
-
-</body>
-</html>
+@charset "UTF-8";
+.cat{
+    font-size: 70%;
+    padding: 20px 0px;
+    padding-right: 30px;
+    background-image: url(../img/arrow.png);
+    background-repeat: no-repeat;
+    background-position: right center
+body{
+   background-color: #fbf9cc; /* 背景色を変える */
+   background-image: url(../img/fuji.png); /* 背景画像を変える */
+   background-repeat: repeat-x; /* 横方向だけを繰り返し　*/
+h1{
+    font-size: 1.75em;
+    color: #3399cc;
+    text-align: center;
+}
+h2{
+    font-size: 1.25em;
+    background-color: #3399cc;
+    color: #ffffff;
+}
+p{
+    font-size: 0.8em;
+    color: #333333;
+    line-height: 1.75em;
+}
+li{
+    font-size: 0.8em;
+    color: #333333;
+}
+address{
+  font-size: 0.75
+  font-style: italic;
+}
